@@ -11,13 +11,13 @@
 <script>
     const username = 'CaitTran';
     const repo = 'mist_test';
-    const folderPath = 'mini2_CSA_2022'
+    const folderPath = 'mini2_CSA_2022';
     const branch = 'website_test'; 
 
     async function getFiles() {
         try {
             // This builds the specific URL GitHub needs to "talk" to your code
-            const url = `https://api.github.com{username}/${repo}/contents/${folderPath}?ref=${branch}`;
+            const url = `https://api.github.com/${username}/${repo}/contents/${folderPath}?ref=${branch}`;
             
             const response = await fetch(url);
             
