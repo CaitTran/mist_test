@@ -31,7 +31,7 @@
 
             data.forEach(file => {
                 // Only create links for files, and skip the index file
-                if (file.type === 'file' && file.name !== 'index.html') {
+                if (file.type === 'file' && file.name !== 'index.html' && file.name !== '.DS_Store') {
                     const li = document.createElement('li');
                     
                     // This creates the clickable link
