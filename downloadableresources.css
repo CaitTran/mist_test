@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+        line-height: 1.0;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 10px;
+        color: #333;
+    }
+
+h1, h2 {
+    color: black; 
+    margin-bottom: 0px;
+    }   
+
+header {
+        border-bottom: 2px solid #eee;
+        padding-bottom: 20px;
+    }
+
+ul {
+    margin-top: 0px;
+    color: #2c3e50;
+}
+
+footer {
+    color: #777;
+    margin-top: 50px;
+    font-size: 0.8em;
+}
