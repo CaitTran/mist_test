@@ -10,45 +10,5 @@
     
     <ul id="file-list">Loading...</ul>
 
-<script>
-    const username = 'CaitTran';
-    const repo = 'mist_test';
-    const folderPath = 'mist1_canyon_obs_2024';
-    const branch = 'website_test'; 
-
-    async function getFiles() {
-        try {
-            // This builds the specific URL GitHub needs to "talk" to your code
-            const url = `https://api.github.com/repos/${username}/${repo}/contents/${folderPath}?ref=${branch}`;
-            
-            const response = await fetch(url);
-            
-            if (!response.ok) {
-                throw new Error('Check your username, repo name, or folder path!');
-            }
-
-            const data = await response.json();
-            const listElement = document.getElementById('file-list');
-            listElement.innerHTML = ''; // Removes the "Loading..." text
-
-            data.forEach(file => {
-                // Only create links for files, and skip the index file
-                if (file.type === 'file' && file.name !== 'index.html' && file.name !== '.DS_Store') {
-                    const li = document.createElement('li');
-                    
-                    // This creates the clickable link
-                    li.innerHTML = `
-                        <a href="${file.download_url}" download style="color: #2c3e50; font-weight: bold;">
-                            📄 ${file.name}
-                        </a>`;
-                    
-                    listElement.appendChild(li);
-                }
-            });
-        } catch (error) {
-            document.getElementById('file-list').innerHTML = `<li style="color:red;">Error: ${error.message}</li>`;
-        }
-    }
-
-    getFiles();
-</script>
+    <script src="organize_dates.js" data-folder="mist1_canyon_obs_2024"></script>
+</body>
