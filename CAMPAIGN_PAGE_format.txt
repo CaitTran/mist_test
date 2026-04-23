@@ -1,0 +1,17 @@
+This is the EXACT format for any campaign page, usually formatted as LOCATION-INSTRUMENT DETAILS-YEAR.
+-----------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" href = "downloadableresources.css"/>
+    <title>SITE NAME INSTRUMENT DETAILS 20XX</title>
+</head>
+<body>
+    <h1>20XX-XX SITE NAME Dipole</h1>
+    
+    <ul id="file-list">Loading...</ul>
+
+<script src="pdflinks.js" data-folder="PDF_SOURCE_FOLDER"></script>
+
+-----------------------------------------------------------------------------------------------------------------------

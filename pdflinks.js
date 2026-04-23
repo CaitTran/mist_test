@@ -3,7 +3,7 @@
     const folderPath = document.currentScript.dataset.folder ;
     const branch = 'website_test'; 
     
-    // <script src="yourscript.js" data-folder="mist2_mars_2024"></script>
+    //insert this at the end of your desired html file: <script src="yourscript.js" data-folder="mist2_mars_2024"></script>
 
     async function getFiles() {
         try {

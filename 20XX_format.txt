@@ -1,0 +1,39 @@
+This is the EXACT format for any page with "20XX" as its prefix.
+------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "mistwebsitestyle.css"/>
+    <title>20XX</title>
+</head>
+<body>
+
+    <div class = "page content">
+<header>
+    <h2>20XX-XX SITE NAME 1</h2>
+    <ul>
+        <li><a href="CAMPAIGN1_PAGE1.html.html">INSTRUMENT DETAILS</a></li>
+    </ul>
+
+    <h2>20XX-XX SITE NAME 2</h2>
+    <ul>
+        <li><a href="CAMPAIGN2_PAGE1.html">INSTRUMENT DETAILS</a></li>
+        <li><a href="CAMPAIGN2_PAGE2.html">INSTRUMENT DETAILS</a></li>
+    </ul>
+
+    <h2>20XX-XX SITE NAME 3</h2>
+    <ul>
+        <li><a href="CAMPAIGN3_PAGE1.html">INSTRUMENT DETAILS</a></li>
+        <li><a href="CAMPAIGN3_PAGE2">INSTRUMENT DETAILS</a></li>
+    </ul>
+</header>
+    </div>
+    
+<script src="organize_dates.js"></script>
+    
+</body>
+</html>
+------------------------------------------------------------------------------------------------------
