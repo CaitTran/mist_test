@@ -1,9 +1,9 @@
-    const username = 'CaitTran';
-    const repo = 'mist_test';
-    const folderPath = document.currentScript.dataset.folder ;
-    const branch = 'website_test'; 
+    const username = 'CaitTran'; //your GitHub username
+    const repo = 'mist_test'; //your GitHub repository name
+    const folderPath = document.currentScript.dataset.folder ; //the folder in your repo where the files are located, e.g., 'pdfs' or 'documents'
+    const branch = 'website_test'; //the branch where your files are located, e.g., 'main' or 'master'
     
-    //insert this at the end of your desired html file: <script src="yourscript.js" data-folder="mist2_mars_2024"></script>
+    //insert this at the end of your desired html file: <script src="pdflinks.js" data-folder="FOLDER_ON_GITHUB"></script>
 
     async function getFiles() {
         try {
