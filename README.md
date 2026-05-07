@@ -33,7 +33,7 @@ ADDING DATA:
 If you want to add more campaigns to this website, you must follow this streamline:
 1. Run the dataset through the MIST plotting script (private, the code is not available on the GitHub repository for this website). 
 
-2. Upload the dataset as a folder to the GitHub repository that hosts the website. The folder may be named in any format you prefer, but the standard as of April 2026 is: 
+2. Upload the set of resultant PDF's as a folder to the GitHub repository that hosts the website. The folder may be named in any format you prefer, but the standard as of April 2026 is: 
 "INSTRUMENTDETAILS_SITE_YEAR" (e.g. "mist2_mars_2024")
 
 3. Linking it on the website:
